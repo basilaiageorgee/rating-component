@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+.rating_component{
+    max-width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #232A34;
+    padding: 40px;
+    border-radius: 25px;
+}
+
+.rating_component h1{
+    color:white;
+}
+
+.rating_component p{
+    color: hsl(217, 12%, 63%);
+    letter-spacing: 0.5px;
+    line-height: 25px;
+}
+
+.rating_button{
+    background-color: #262E38;
+    border: none;
+    border-radius: 50%;
+    padding:10px;
+    color: #7C8798;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    font-family: 'Overpass', sans-serif;
+    margin: 10px;
+}
+
+.rating_button:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    transition: 0.3s;
+}
+
+.rating_button:focus {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    transition: 0.3s;
+}
+
+.icon-star{
+    background-color: #262E38;
+    width: 20px;
+    padding: 20px;
+    border-radius: 40%;
+    
+}
+
+.icon-star-div{
+    width: 60px;
+    height: 60px;
+    padding-bottom: 30px;
+}
+
+.sumbit-div{
+    text-align: center;
+}
+
+.sumbit_btn{
+    margin-top: 20px;
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    color: white;
+    font-family: 'Overpass', sans-serif;
+    font-size: 17px;
+    width: 370px;
+    padding: 10px;
+    height: 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.sumbit_btn:hover{
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+    transition: 0.3s;
+}

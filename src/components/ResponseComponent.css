@@ -1,0 +1,33 @@
+.response_component{
+    max-width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #232A34;
+    padding: 40px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.ratinginfo{
+    background-color: #262E38;
+    color: hsl(25, 97%, 53%);
+    max-width: 200px;
+    border-radius: 25px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.thankyou-div{
+    padding-bottom: 30px;
+}
+
+.response_component h1{
+    color: white;
+}
+
+.response_component .response p{
+    color: hsl(217, 12%, 63%);
+    line-height: 25px;
+}
